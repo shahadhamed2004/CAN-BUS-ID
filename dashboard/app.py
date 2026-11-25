@@ -348,7 +348,7 @@ if page == "Overview":
                 })
                 st.bar_chart(
                     distribution.set_index("Class"),
-                    color="#269BFF"
+                  
                 )
 
             with right_col:
